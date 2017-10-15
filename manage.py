@@ -13,8 +13,8 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="bishkek_men_style",
+    password="qwertyuiop12345",
     like_per_day=1000,
     comments_per_day=0,
     tag_list=['follow4follow', 'f4f', 'cute'],
@@ -41,6 +41,7 @@ bot = InstaBot(
                    "very glorious", "adorable", "excellent", "amazing"],
                   [".", "..", "...", "!", "!!", "!!!"]],
     # Use unwanted_username_list to block usernames containing a string
+    # manage.py runserver 3000
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
